@@ -70,7 +70,7 @@ export default function EmergencyCommandCenter() {
   try {
     console.log("Sending request...");
 
-    const response = await fetch("https://smart-emergency-backend-4r9u.onrender.com/", {
+    const response = await fetch("http://127.0.0.1:5000/deploy", {
   method: "POST",
   headers: {
     "Content-Type": "application/json"
